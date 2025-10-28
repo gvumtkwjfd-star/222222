@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+bitrader.thetork.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+bitrader.thetork.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_6b807d0b4c8c512f33a3c64a8cd806ce	t_febabacf3375a4036c63904e0ec209%7C1760980471%7C1760894071%7C%24generic%249L1x8vRBzB_zs7tkKKCYxjehb4SlZfmeYqSNtVKs
+bitrader.thetork.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	ebc41be6e11c0bb9a198b8bc7ad92bcc
+

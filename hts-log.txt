@@ -1,0 +1,136 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 18 Oct 2025 19:11:38 at https://bitrader.thetork.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://bitrader.thetork.com/ -O1 "C:\My Web Sites\https___bitrader.thetork.com_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:15:16	Warning: 	Found for https://bitrader.thetork.com/checkout/
+19:15:16	Warning: 	File has moved from https://bitrader.thetork.com/checkout/ to https://bitrader.thetork.com/cart/
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-duotone-900.woff2 (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-duotone-900.ttf (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-light-300.woff2 (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-light-300.ttf (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-thin-100.woff2 (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-thin-100.ttf (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-v4compatibility.woff2 (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/fonts/fa-v4compatibility.ttf (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/font-awesome-pro.css?ver=6.8.3)
+19:15:59	Error: 	"Not Found" (404) at link https://bitrader.thetork.com/wp-content/themes/bitrader/assets/images/banner/home5/bg.svg (from https://bitrader.thetork.com/wp-content/themes/bitrader/assets/css/bitrader-core.css?ver=6.8.3)
+19:16:00	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=510
+19:16:00	Warning: 	File has moved from https://bitrader.thetork.com/?p=510 to https://bitrader.thetork.com/home-two/
+19:16:01	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=646
+19:16:01	Warning: 	File has moved from https://bitrader.thetork.com/?p=646 to https://bitrader.thetork.com/home-three/
+19:16:01	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=1267
+19:16:01	Warning: 	File has moved from https://bitrader.thetork.com/?p=1267 to https://bitrader.thetork.com/home-four/
+19:16:01	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=1461
+19:16:01	Warning: 	File has moved from https://bitrader.thetork.com/?p=1461 to https://bitrader.thetork.com/home-five/
+19:16:01	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=732
+19:16:01	Warning: 	File has moved from https://bitrader.thetork.com/?p=732 to https://bitrader.thetork.com/our-services/
+19:16:01	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=181
+19:16:01	Warning: 	File has moved from https://bitrader.thetork.com/?p=181 to https://bitrader.thetork.com/services/strategy-consulting/
+19:16:02	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=740
+19:16:02	Warning: 	File has moved from https://bitrader.thetork.com/?p=740 to https://bitrader.thetork.com/about-us/
+19:16:02	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=762
+19:16:02	Warning: 	File has moved from https://bitrader.thetork.com/?p=762 to https://bitrader.thetork.com/our-team/
+19:16:10	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2025
+19:16:10	Warning: 	File has moved from https://bitrader.thetork.com/?p=2025 to https://bitrader.thetork.com/teams/dianne-russell/
+19:16:13	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=756
+19:16:13	Warning: 	File has moved from https://bitrader.thetork.com/?p=756 to https://bitrader.thetork.com/our-pricing/
+19:16:24	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=63
+19:16:24	Warning: 	File has moved from https://bitrader.thetork.com/?p=63 to https://bitrader.thetork.com/options-trading-business/
+19:16:24	Error: 	"Method Not Allowed" (405) at link https://bitrader.thetork.com/xmlrpc.php (from https://bitrader.thetork.com/options-trading-business/)
+19:17:41	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2893
+19:17:41	Warning: 	File has moved from https://bitrader.thetork.com/?p=2893 to https://bitrader.thetork.com/product/apple-watch-series-7/
+19:17:58	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2817
+19:17:58	Warning: 	File has moved from https://bitrader.thetork.com/?p=2817 to https://bitrader.thetork.com/cart/
+19:18:01	Error: 	"Bad Request" (400) at link https://bitrader.thetork.com/wp-admin/admin-ajax.php?action=rest-nonce (from https://bitrader.thetork.com/cart/)
+19:18:01	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2869
+19:18:01	Warning: 	File has moved from https://bitrader.thetork.com/?p=2869 to https://bitrader.thetork.com/wishlist/
+19:18:01	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2819
+19:18:01	Warning: 	File has moved from https://bitrader.thetork.com/?p=2819 to https://bitrader.thetork.com/my-account/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=768
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=768 to https://bitrader.thetork.com/contact-us/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=180
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=180 to https://bitrader.thetork.com/services/financial-advisory/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=179
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=179 to https://bitrader.thetork.com/services/management/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=178
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=178 to https://bitrader.thetork.com/services/supply-optimization/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=177
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=177 to https://bitrader.thetork.com/services/hr-consulting/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=124
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=124 to https://bitrader.thetork.com/services/marketing-consulting/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2023
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=2023 to https://bitrader.thetork.com/teams/albert-flores/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2027
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=2027 to https://bitrader.thetork.com/teams/courtney-henry/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2026
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=2026 to https://bitrader.thetork.com/teams/theresa-webb/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2028
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=2028 to https://bitrader.thetork.com/teams/darrell-steward/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2029
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=2029 to https://bitrader.thetork.com/teams/wade-warren/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2030
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=2030 to https://bitrader.thetork.com/teams/cody-fisher/
+19:18:04	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2031
+19:18:04	Warning: 	File has moved from https://bitrader.thetork.com/?p=2031 to https://bitrader.thetork.com/teams/bessie-cooper/
+19:18:10	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=65
+19:18:10	Warning: 	File has moved from https://bitrader.thetork.com/?p=65 to https://bitrader.thetork.com/online-trading-for-beginners/
+19:18:10	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=61
+19:18:10	Warning: 	File has moved from https://bitrader.thetork.com/?p=61 to https://bitrader.thetork.com/advantages-of-day-trading/
+19:18:11	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2035
+19:18:11	Warning: 	File has moved from https://bitrader.thetork.com/?p=2035 to https://bitrader.thetork.com/teams/douglas-workman/
+19:18:11	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2034
+19:18:11	Warning: 	File has moved from https://bitrader.thetork.com/?p=2034 to https://bitrader.thetork.com/teams/thomas-anderson/
+19:18:11	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2033
+19:18:11	Warning: 	File has moved from https://bitrader.thetork.com/?p=2033 to https://bitrader.thetork.com/teams/paul-snyder/
+19:18:11	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2032
+19:18:11	Warning: 	File has moved from https://bitrader.thetork.com/?p=2032 to https://bitrader.thetork.com/teams/harry-t-ramos/
+19:18:35	Warning: 	Moved Permanently for https://bitrader.thetork.com/blog/page/1/
+19:18:35	Warning: 	File has moved from https://bitrader.thetork.com/blog/page/1/ to https://bitrader.thetork.com/blog/
+19:18:38	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2895
+19:18:38	Warning: 	File has moved from https://bitrader.thetork.com/?p=2895 to https://bitrader.thetork.com/product/apple-tab-series-7/
+19:18:38	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2881
+19:18:38	Warning: 	File has moved from https://bitrader.thetork.com/?p=2881 to https://bitrader.thetork.com/product/cute-blue-denim-cap/
+19:18:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2892
+19:18:53	Warning: 	File has moved from https://bitrader.thetork.com/?p=2892 to https://bitrader.thetork.com/product/eco-shopping-mog/
+19:18:58	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2884
+19:18:58	Warning: 	File has moved from https://bitrader.thetork.com/?p=2884 to https://bitrader.thetork.com/product/fathers-day-gift-set/
+19:18:58	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2882
+19:18:58	Warning: 	File has moved from https://bitrader.thetork.com/?p=2882 to https://bitrader.thetork.com/product/heritage-style-canvas-bag/
+19:19:08	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2873
+19:19:08	Warning: 	File has moved from https://bitrader.thetork.com/?p=2873 to https://bitrader.thetork.com/product/leather-card-holder/
+19:19:09	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2883
+19:19:09	Warning: 	File has moved from https://bitrader.thetork.com/?p=2883 to https://bitrader.thetork.com/product/man-style-boot/
+19:19:09	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2879
+19:19:09	Warning: 	File has moved from https://bitrader.thetork.com/?p=2879 to https://bitrader.thetork.com/product/simple-modern-school-bag-2/
+19:19:16	Warning: 	Moved Permanently for https://bitrader.thetork.com/shop/page/1/
+19:19:16	Warning: 	File has moved from https://bitrader.thetork.com/shop/page/1/ to https://bitrader.thetork.com/shop/
+19:19:37	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2878
+19:19:37	Warning: 	File has moved from https://bitrader.thetork.com/?p=2878 to https://bitrader.thetork.com/product/tour-bag-case/
+19:19:52	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=59
+19:19:52	Warning: 	File has moved from https://bitrader.thetork.com/?p=59 to https://bitrader.thetork.com/essential-for-small-business/
+19:19:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/category/dividend-stocks/page/1/
+19:19:53	Warning: 	File has moved from https://bitrader.thetork.com/category/dividend-stocks/page/1/ to https://bitrader.thetork.com/category/dividend-stocks/
+19:19:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/services/page/1/
+19:19:53	Warning: 	File has moved from https://bitrader.thetork.com/services/page/1/ to https://bitrader.thetork.com/services/
+19:19:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/teams/page/1/
+19:19:53	Warning: 	File has moved from https://bitrader.thetork.com/teams/page/1/ to https://bitrader.thetork.com/teams/
+19:19:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/author/admin/page/1/
+19:19:53	Warning: 	File has moved from https://bitrader.thetork.com/author/admin/page/1/ to https://bitrader.thetork.com/author/admin/
+19:19:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=57
+19:19:53	Warning: 	File has moved from https://bitrader.thetork.com/?p=57 to https://bitrader.thetork.com/conditions-to-claim-deduction/
+19:19:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=55
+19:19:53	Warning: 	File has moved from https://bitrader.thetork.com/?p=55 to https://bitrader.thetork.com/extra-source-of-income/
+19:19:53	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=871
+19:19:53	Warning: 	File has moved from https://bitrader.thetork.com/?p=871 to https://bitrader.thetork.com/control-trades-and-portfolio/
+19:19:54	Warning: 	Moved Permanently for https://bitrader.thetork.com/tag/trading/page/1/
+19:19:54	Warning: 	File has moved from https://bitrader.thetork.com/tag/trading/page/1/ to https://bitrader.thetork.com/tag/trading/
+19:19:54	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2876
+19:19:54	Warning: 	File has moved from https://bitrader.thetork.com/?p=2876 to https://bitrader.thetork.com/product/winter-fat-shirt/
+19:20:02	Warning: 	Moved Permanently for https://bitrader.thetork.com/?p=2875
+19:20:02	Warning: 	File has moved from https://bitrader.thetork.com/?p=2875 to https://bitrader.thetork.com/product/youhe-t-shirt/
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 48 seconds : 955 links scanned, 886 files written (52830358 bytes overall) [23399678 bytes received at 44317 bytes/sec], 40051686 bytes transferred using HTTP compression in 550 files, ratio 23%, 9.9 requests per connection
+(11 errors, 114 warnings, 0 messages)
