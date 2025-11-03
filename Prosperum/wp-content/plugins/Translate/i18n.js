@@ -185,7 +185,7 @@ risk_title: "Risk disclosure",
  risk_text: `Investing in high-risk groups: (Forex) and contracts for difference (CFD) is a speculative transaction with high risk, which is not suitable for every investor. You may incur partial or total loss of your investment, so we do not advise you to invest capital that you cannot risk. You should be aware of the increased risk associated with leverage. We strongly recommend that you familiarize yourself with the terms and services of our website before you start using our service.
   <br/><br/>
   <span style='color:#8f7434'>Prosperum Invest</span> is a trading name operated under its parent company <span class="fw-bold">Prosperum Finance</span>, a company registered in England and Wales with Companies House number <span class="fw-bold">00053741</span> and firm reference number <span class="fw-bold">419498</span>. 
-  Registered office: 45 Northgate, White Lund Industrial Estate, Morecambe, Lancashire, LA3 3PAL, United Kingdom.`,
+  Registered office: Lancaster & Morecambe College, Morecambe Road Lancaster Lancashire LA1 2TY LUNITED KINGDOM.`,
 login_heading: "Login to your account",
 login_username_label: "Username",
 login_username_placeholder: "Username",
@@ -644,7 +644,7 @@ risk_title: "Ujawnienie ryzyka",
 risk_text: `Inwestowanie w grupy wysokiego ryzyka, takie jak (Forex) i kontrakty na różnicę (CFD), jest transakcją spekulacyjną o wysokim ryzyku i nie jest odpowiednie dla każdego inwestora. Możesz ponieść częściową lub całkowitą utratę swojej inwestycji, dlatego nie zalecamy inwestowania kapitału, którego nie możesz stracić. Należy być świadomym zwiększonego ryzyka związanego z dźwignią finansową. Zdecydowanie zalecamy zapoznanie się z warunkami i usługami naszej strony internetowej przed rozpoczęciem korzystania z naszego serwisu.
   <br/><br/>
   <span style='color:#8f7434'>Prosperum Invest</span> jest nazwą handlową działającą pod spółką macierzystą <span class="fw-bold">Prosperum Finance</span>, zarejestrowaną w Anglii i Walii pod numerem <span class="fw-bold">00053741</span> oraz numerem referencyjnym firmy <span class="fw-bold">419498</span>. 
-  Siedziba: 45 Northgate, White Lund Industrial Estate, Morecambe, Lancashire, LA3 3PAL, Wielka Brytania.`,
+  Siedziba: Lancaster & Morecambe College, Morecambe Road Lancaster Lancashire LA1 2TY, Wielka Brytania.`,
 account_title: "Moje konto",
 breadcrumb_home: "Bitrader",
 breadcrumb_account: "Moje konto",
