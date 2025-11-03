@@ -443,7 +443,11 @@ home4_title: "Empower Your ultimate Financial Future",
       marketing_title: "Grow your brand and reach the right audience.",
   marketing_text:
     "Our marketing consulting services help you build visibility, trust, and engagement in the competitive world of trading and finance. We develop data-driven marketing strategies, optimize your online presence, and create campaigns that convert interest into real investment activity. From branding and community growth to performance analytics — we give you the tools and insights to scale your business with confidence.",
-  footer_privacy: "© 2025 All Rights Reserved By Prosperum Invest", 
+  footer_privacy: "© 2025 All Rights Reserved By Prosperum Invest",
+  HR_Kristian:"HR Consultant", 
+  MarketingMikkel:"Marketing Consultant",
+  SupplyFrederik: "Supply Optimization Expert",
+  StrategyOliver: "Strategy Consultant",
   },
 
   pl: {
@@ -472,7 +476,7 @@ home4_title: "Empower Your ultimate Financial Future",
     nav_account: "Moje konto",
     nav_contact: "Kontakt",
     nav_language: "Język",
-
+StrategyOliver: "Konsultant strategii",
     header_join: "Dołącz teraz",
 
     banner_title: "Zainwestuj swoje pieniądze z <span>wyższym zyskiem</span>",
@@ -491,7 +495,7 @@ home4_title: "Empower Your ultimate Financial Future",
     about_text:
       "Cieszymy się, że odwiedziłeś naszą firmę! Dowiedz się więcej o tym, co robimy i poznaj nasz zespół!",
     about_explore_more: "Zobacz więcej",
-
+    SupplyFrederik: "Ekspert ds.optymalizacji dostaw",
     feature_title: "<span style='color: var(--secondary-color)'>Korzyści</span> jakie oferujemy",
     feature_text:
       "Odkryj pełen potencjał naszego produktu dzięki niesamowitym funkcjom i najwyższej jakości usługom.",
@@ -551,14 +555,14 @@ pricing_basic_period: "Miesiąc",
   pricing_bronze_2: "Doradca finansowy (okresowe konsultacje)",
   pricing_bronze_3: "Dostęp do cotygodniowej analizy rynku",
   pricing_bronze_4: "Udział w webinarach dla początkujących",
-
+  HR_Kristian:"Konsultant HR",
   ErykKrok: "Doradca finansowy",
   AlexanderMayer: "Doradca finansowy",
   DamianFrater: "Doradca finansowy",
   DavidFreeman: "Kierownik ds.finansowych",
   DanielWalker: "Doradca finansowy",
   EwaMiller: "Konsultant ds.zarządzania",
-
+  MarketingMikkel:"Konsultant marketingowy",
   pricing_silver_1: "Dostęp do walut i towarów",
   pricing_silver_2: "Niższe spready / prowizje",
   pricing_silver_3: "Priorytetowa realizacja zleceń",
