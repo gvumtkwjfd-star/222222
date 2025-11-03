@@ -442,10 +442,12 @@ home4_title: "Empower Your ultimate Financial Future",
     "Our HR consulting services help you attract, train, and retain top talent in the trading and fintech industry. We focus on creating efficient team structures, defining clear roles, and improving internal communication for maximum productivity. Whether you’re managing a startup or a growing trading firm, we provide strategic guidance to help your people perform at their best and drive long-term success.",
       marketing_title: "Grow your brand and reach the right audience.",
   marketing_text:
-    "Our marketing consulting services help you build visibility, trust, and engagement in the competitive world of trading and finance. We develop data-driven marketing strategies, optimize your online presence, and create campaigns that convert interest into real investment activity. From branding and community growth to performance analytics — we give you the tools and insights to scale your business with confidence."
+    "Our marketing consulting services help you build visibility, trust, and engagement in the competitive world of trading and finance. We develop data-driven marketing strategies, optimize your online presence, and create campaigns that convert interest into real investment activity. From branding and community growth to performance analytics — we give you the tools and insights to scale your business with confidence.",
+  footer_privacy: "© 2025 All Rights Reserved By Prosperum Invest", 
   },
 
   pl: {
+      footer_privacy: "© 2025 All Rights Reserved By Prosperum Invest", 
     nav_home: "Strona główna",
     nav_home_stock: "Giełda",
     nav_home_crypto: "Kryptowaluty",
@@ -611,7 +613,7 @@ footer_services: "Usługi",
 footer_features: "Funkcje",
 footer_support: "Wsparcie",
 footer_terms: "Regulamin",
-footer_privacy: "Polityka prywatności",
+footer_privacy: "© 2025 All Rights Reserved By Prosperum Invest",
 footer_faq: "FAQ",
 footer_support_center: "Centrum wsparcia",
 footer_company: "Firma",
