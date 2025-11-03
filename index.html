@@ -290,7 +290,6 @@ document.addEventListener("DOMContentLoaded", function() {
          class="nav-links" data-i18n="nav_contact">Contact Us</a>
     </li>
 
-    <!-- ✅ Исправленный блок выбора языка -->
     <li class="menu-item menu-item-has-children dropdown nav-item">
       <a href="#" class="nav-links" data-i18n="nav_language">Language</a>
       <ul class="submenu" role="menu">
@@ -1935,7 +1934,9 @@ document.addEventListener("DOMContentLoaded", function() {
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-ca3a5d8 elementor-widget__width-inherit elementor-absolute h-100 elementor-widget elementor-widget-bg-shapes" data-id="ca3a5d8" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="bg-shapes.default">
 				<div class="elementor-widget-container">
-					
+					<div id="btc"></div>
+<div id="eth"></div>
+<div id="sol"></div>
         
             <div class="footer__shape">
                 <span class="footer__shape-item footer__shape-item--2">
@@ -2179,6 +2180,19 @@ jQuery(function($) {
 			document.body.className = c;
 		})();
 	</script>
+    <script>
+        async function loadCrypto() {
+  const res = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd&include_24hr_change=true");
+  const data = await res.json();
+
+  document.getElementById("btc").textContent = `$${data.bitcoin.usd} (${data.bitcoin.usd_24h_change.toFixed(2)}%)`;
+  document.getElementById("eth").textContent = `$${data.ethereum.usd}`;
+  document.getElementById("sol").textContent = `$${data.solana.usd}`;
+}
+
+setInterval(loadCrypto, 5000);
+loadCrypto();   
+    </script>
 	<link rel='stylesheet' id='wc-blocks-style-css' href='Prosperum/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks6e20.css?ver=wc-10.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='widget-icon-list-css' href='Prosperum/wp-content/plugins/elementor/assets/css/widget-icon-list.min4a4c.css?ver=3.32.4' type='text/css' media='all' />
 <script type="text/javascript" src="Prosperum/wp-includes/js/dist/hooks.min4fdd.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
