@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    footer_description: "Welcome to Prosperum Invest! Your trusted partner in smart investing and financial growth. We provide innovative trading solutions, expert guidance and tools to help you make confident investment decisions.",
+    footer_description: "Welcome to Prosperum Invest! Your trusted partner in smart investing and financial growth. We provide innovative trading solutions, expert guidance and tools to help you make confident investment decisions",
     nav_home: "Home",
     nav_home_stock: "Home Stock",
     nav_home_crypto: "Home Crypto",
