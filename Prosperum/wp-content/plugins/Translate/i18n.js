@@ -234,7 +234,7 @@ clients_title: "Meet Our <span class='tcolor' style='color:#8f7434'>Clients</spa
   blog_post2_text: "Understand how options trading works and whether it suits your investment goals.",
   blog_read_more: "Read more",
   banner_heading: "Smart solution for business",
-banner_text: "Are you tired of your currency not going as far as it used to? Try prosperum and multiply your money! With their user-friendly interface and expert market analysis, you'll be earning more in no time.",
+banner_text: "123Are you tired of your currency not going as far as it used to? Try prosperum and multiply your money! With their user-friendly interface and expert market analysis, you'll be earning more in no time.",
 banner_get_started: "Get Started",
 banner_watch_video: "Watch Video",
 platform_heading: "Experienced Trading Platform To Grow",
