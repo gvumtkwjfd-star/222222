@@ -449,6 +449,7 @@ home4_title: "Empower Your ultimate Financial Future",
   SupplyFrederik: "Supply Optimization Expert",
   StrategyOliver: "Strategy Consultant",
   pricing_text: "We offer the best pricings around - from installations to repairs, maintenance, and more!",
+  footer_description23: "Welcome to Prosperum Invest! Your trusted partner in smart investing and financial growth. We provide innovative trading solutions, expert guidance and tools to help you make confident investment decisions.",
   },
 
   pl: {
