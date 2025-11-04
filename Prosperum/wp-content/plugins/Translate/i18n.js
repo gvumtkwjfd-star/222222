@@ -143,7 +143,6 @@ faq_a4: "Online trading’s primary advantages are that it allows you to manage 
 subscribe_title: "Subscribe <span>Our News</span>",
 subscribe_text: "Hey! Are you tired of missing out on our updates? Subscribe to our news now and stay in the loop!",
 subscribe_btn: "Submit",
-footer_description: "Welcome to Prosperum Invest! Your trusted partner in smart investing and financial growth. We provide innovative trading solutions, expert guidance and tools to help you make confident investment decisions.",
 footer_quicklinks: "Quick links",
 footer_about: "About Us",
 footer_teams: "Teams",
@@ -449,7 +448,7 @@ home4_title: "Empower Your ultimate Financial Future",
   SupplyFrederik: "Supply Optimization Expert",
   StrategyOliver: "Strategy Consultant",
   pricing_text: "We offer the best pricings around - from installations to repairs, maintenance, and more!",
-  footer_description23: "Welcome to Prosperum Invest! Your trusted partner in smart investing and financial growth. We provide innovative trading solutions, expert guidance and tools to help you make confident investment decisions.",
+  
   },
 
   pl: {
