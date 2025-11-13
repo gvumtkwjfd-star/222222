@@ -254,6 +254,25 @@ document.addEventListener("DOMContentLoaded", function() {
 		mainLogo.src = isDarkVersion ? darkLogoUrl : lightLogoUrl;
 	});
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const links = document.querySelectorAll('[data-mobile][data-desktop]');
+  if (!links.length) return;
+
+  const mediaQuery = window.matchMedia('(max-width: 800px)');
+
+  const applyLinks = () => {
+    links.forEach(link => {
+      const mobile = link.dataset.mobile;
+      const desktop = link.dataset.desktop || link.href;
+      link.href = mediaQuery.matches ? mobile : desktop;
+    });
+  };
+
+  applyLinks();
+
+  mediaQuery.addEventListener('change', applyLinks);
+});
 </script>
 
 
@@ -285,7 +304,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="menu-area">
 
                                                     <div class="header-btn">
-                                <a href="https://workspace.prosperum.app" style="background-color:#00d094; border: 1px solid #00d094" class="trk-btn trk-btn--border trk-btn--primary">
+                                <a   href="https://workspace.prosperum.app"
+   data-mobile="https://mobile.prosperum.app"
+   data-desktop="https://workspace.prosperum.app" style="background-color:#00d094; border: 1px solid #00d094" class="trk-btn trk-btn--border trk-btn--primary">
                                     <span>Join Now</span>
                                 </a>
                             </div>
